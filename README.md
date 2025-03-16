@@ -16,7 +16,9 @@ points-System-app
 │   └── favicon.ico
 ├── src
 │   ├── components
-│   │   └── Cart.tsx
+│   │   └── Card.tsx
+         └── _tests
+          └── Card.test.tsx
 │   ├── pages
 │   │   ├── api
 │   │   │   └── points.ts
@@ -77,6 +79,7 @@ Open your browser and navigate to `http://localhost:3000` to view the applicatio
 - TypeScript
 - Tailwind CSS
 - React
+- Jest
 
 ## License
 

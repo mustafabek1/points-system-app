@@ -3,5 +3,5 @@ export interface PointsResponse {
 }
 
 export interface UsePointsRequest {
-    amount: number;
+    updatedPoints: number;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import Cart from '../Cart';
+import Cart from '../Card';
 import '@testing-library/jest-dom/extend-expect';
 
 describe('Cart', () => {
