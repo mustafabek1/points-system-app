@@ -5,3 +5,7 @@ export interface PointsResponse {
 export interface UsePointsRequest {
     updatedPoints: number;
 }
+
+export interface CardProps {
+    userId: string;     
+}

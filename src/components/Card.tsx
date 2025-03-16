@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { fetchPoints, usePoints } from '../utils/api';
+import { CardProps } from 'types';
 
-const Card: React.FC<{ userId: string }> = ({ userId }) => {
+const Card: React.FC<CardProps> = ({ userId }) => {
     const [points, setPoints] = useState<number>(0);
     const [inputVisible, setInputVisible] = useState<boolean>(false);
     const [pointsToUse, setPointsToUse] = useState<number | string>('');
@@ -60,4 +61,4 @@ const Card: React.FC<{ userId: string }> = ({ userId }) => {
     );
 };
 
-export default Card;
+export default React.memo (Card);
