@@ -38,7 +38,7 @@ points-System-app
 
 1. Clone the repository:
    ```
-   git clone https://github.com/mustafabek1/points-System-app.git
+   git clone https://github.com/mustafabek1/points-system-app.git
    ```
 
 2. Navigate to the project directory:
