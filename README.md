@@ -17,14 +17,14 @@ points-System-app
 ├── src
 │   ├── components
 │   │   └── Card.tsx
-         └── _tests
-          └── Card.test.tsx
 │   ├── pages
 │   │   ├── api
 │   │   │   └── points.ts
 │   │   └── index.tsx
 │   ├── styles
 │   │   └── globals.css
+│   ├── tests
+│   │    └── card.test.tsx
 │   ├── utils
 │   │   └── api.ts
 │   └── types
