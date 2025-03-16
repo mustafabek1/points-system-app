@@ -58,6 +58,11 @@ To start the development server, run:
 npm run dev
 ```
 
+To start the development Jest Test, run:
+```
+npm run test
+```
+
 Open your browser and navigate to `http://localhost:3000` to view the application.
 
 ## Usage
